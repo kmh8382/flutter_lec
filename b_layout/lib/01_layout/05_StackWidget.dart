@@ -25,6 +25,15 @@ class StackWidget extends StatelessWidget {
           height: 100,
           color: Colors.blue,
         ),
+        Positioned(
+          top: 50,
+          left: 200,
+          child: Container(
+            width: 100,
+            height: 100,
+            color: Colors.yellow,
+          )
+        ),
       ],
     );
   }

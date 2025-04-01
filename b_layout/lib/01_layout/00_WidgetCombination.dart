@@ -3,6 +3,7 @@ import 'package:b_layout/01_layout/02_mediaQueryWidget.dart';
 import 'package:b_layout/01_layout/03_SizedBox.dart';
 import 'package:b_layout/01_layout/04_RowWidget.dart';
 import 'package:b_layout/01_layout/05_StackWidget.dart';
+import 'package:b_layout/01_layout/06_WrapWidget.dart';
 import 'package:flutter/material.dart';
 
 // ListView
@@ -31,6 +32,7 @@ class WidgetCombination extends StatelessWidget {
       const SizedBoxWidget(),
       const RowWidget(),
       const StackWidget(),
+      const WrapWidget(),
     ];
 
     return ListView.separated(
