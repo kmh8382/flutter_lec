@@ -1,3 +1,8 @@
+import 'package:b_layout/01_layout/01_ColumnWidget.dart';
+import 'package:b_layout/01_layout/02_mediaQueryWidget.dart';
+import 'package:b_layout/01_layout/03_SizedBox.dart';
+import 'package:b_layout/01_layout/04_RowWidget.dart';
+import 'package:b_layout/01_layout/05_StackWidget.dart';
 import 'package:flutter/material.dart';
 
 // ListView
@@ -21,6 +26,11 @@ class WidgetCombination extends StatelessWidget {
 
     final List<StatelessWidget> widgets = [
       const Text("ListView Widget", textAlign: TextAlign.center,),
+      const ColumnWidget(),
+      //const mediaQueryWidget(),
+      const SizedBoxWidget(),
+      const RowWidget(),
+      const StackWidget(),
     ];
 
     return ListView.separated(
