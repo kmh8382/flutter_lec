@@ -79,6 +79,7 @@ class MyHomePage extends StatelessWidget {
           children: <Widget>[
             const Text('첫 번째 Text'),
             const Text('두 번째 Text', style: TextStyle(fontSize: 24.0)),
+            const Text('세 번째 Text', style: TextStyle(fontSize: 36.0)),
           ],
         ),
       ),
