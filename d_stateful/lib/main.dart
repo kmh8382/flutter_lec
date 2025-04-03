@@ -4,6 +4,9 @@ import 'package:d_stateful/03_switch.dart';
 import 'package:d_stateful/04_slider.dart';
 import 'package:d_stateful/05_radio.dart';
 import 'package:d_stateful/06_text_field.dart';
+import 'package:d_stateful/07_progress_indicator.dart';
+import 'package:d_stateful/08_animate_progress_indicator.dart';
+import 'package:d_stateful/09_just_audio.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +36,10 @@ class MyApp extends StatelessWidget {
             // const SwitchWidget(),
             // const SliderWidget(),
             // const RadioWidget(),
-            const TextFieldWidget(),
+            // const TextFieldWidget(),
+            // const ProgressIndicatorWidget(),
+            // const AnimateProgressIndicatorWidget(),
+            const JustAudioWidget(),
         ),
       )
     );
