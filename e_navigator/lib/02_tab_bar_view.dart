@@ -47,8 +47,38 @@ class TabBarViewPage extends StatelessWidget {
               ),
             ),
             //-------------------- 2번째 탭 화면 --------------------//
-
+            Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text("path variable 을 이용한 데이터 전달"),
+                  SizedBox(height: 20,),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context, "/path/10");
+                    },
+                    child: const Text("PathVariablePage"),
+                  )
+                ],
+              ),
+            ),
             //-------------------- 3번째 탭 화면 --------------------//
+            Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text("Query String 을 이용한 데이터 전달"),
+                  SizedBox(height: 20,),
+                  ElevatedButton(
+                    onPressed: () {
+                      // Navigator.pushNamed(context, "/query?page=1&sort=id,desc");
+                      Navigator.pushNamed(context, "/query");
+                    },
+                    child: const Text("QueryStringPage"),
+                  )
+                ],
+              ),
+            )
           ]
         ),
       )
